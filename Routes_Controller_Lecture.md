@@ -98,7 +98,7 @@ Ex: `/controlers`
 
 ## Params
 3 ways to pass params in an HTTP
-1. wildcards (/posts/:id)
+1. Wildcards / URL param (/posts/:id)
 2. query string (/path?param1=value1&param2=value2)
 3. request body (built in using a form, bunch of key value pairs)
   - do not use for GET requests
