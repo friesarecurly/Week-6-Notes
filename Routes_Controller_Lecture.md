@@ -103,6 +103,9 @@ Ex: `/controlers`
 3. request body (built in using a form, bunch of key value pairs)
   - do not use for GET requests
 
+## Strong params
+- Params with security (params.require(top_lvl_key).permit(keys))
+
 class PostsController < ApplicationController
   def index
     posts = Post.all
@@ -156,3 +159,5 @@ end
 top_level_key made up in out params.require()
 In Postman, top_level_key should be added in body's key
 post[body] or post[author_id]
+
+
